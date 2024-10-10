@@ -1,0 +1,39 @@
+.container-promotion {
+    max-width: 100vw;
+    width: 100%;
+    min-height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+  
+    &-center {
+      max-width: 75rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  .promo-select {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  
+    & h3 {
+      font-family: $link-title-font;
+      color: $text-color;
+  
+      font-size: 2rem;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.6rem;
+    }
+
+    & i {
+        font-size: 3rem;
+      }
+    }
+  

@@ -1,0 +1,45 @@
+.container-layout.justify-left {
+    max-width: 75rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .container-villa {
+    max-width: 34rem;
+    width: 100%;
+    min-height: 23rem;
+    background-color: rgb(35, 35, 35, 0.9);
+    padding: 1.5rem;
+  
+    & h3 {
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      line-height: 1.6rem;
+  
+      margin-bottom: 2rem;
+    }
+
+    & h2 {
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.6rem;
+    
+        margin-bottom: 2rem;
+      }
+    
+      & p {
+        max-width: 31rem;
+        width: 100%;
+    
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.6rem;
+    
+        margin-bottom: 2.5rem;
+      }
+    }

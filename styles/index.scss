@@ -59,6 +59,22 @@ body {
     display: block;
 }
 
+&-villa {
+    background-image: url("../images/villa.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+&-location {
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+
+
 @media screen and (max-width: 35rem) {
 
 
