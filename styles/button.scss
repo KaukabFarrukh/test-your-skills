@@ -1,0 +1,40 @@
+.btn-search {
+    width: 9.5rem;
+    height: 3rem;
+    overflow: hidden;
+    background: $primary-color;
+    border: none;
+  
+    color: $title-color;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    font-size: 1rem;
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease ease-in-out;
+  
+    &:hover {
+      color: white;
+      background-color: #ff6363;
+      transform: scale(1.05);
+    }
+  
+    & i {
+      font-size: 1.2rem;
+      margin-left: 0.4rem;
+    }
+  }
+  
+  // MEDIA QUERIES //
+  
+  @media screen and (max-width: 35rem) {
+    .btn-search {
+      max-width: 7rem;
+      height: 3rem;
+      font-size: 0.8rem;
+  
+      & i {
+        font-size: 0.8rem;
+      }
+    }
+  }
