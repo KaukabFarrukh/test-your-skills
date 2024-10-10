@@ -24,6 +24,39 @@
       margin-left: 0.4rem;
     }
   }
+
+  .btn-book {
+    width: 14rem;
+    height: 4rem;
+    overflow: hidden;
+    background: linear-gradient(
+      to bottom left,
+      $primary-color 50%,
+      $secondary-color 50%
+    );
+    border: none;
+  
+    color: $title-color;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    font-size: 1rem;
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease ease-in-out;
+  
+    &:hover {
+      background: linear-gradient(
+        to bottom left,
+        $secondary-color 50%,
+        $primary-color 50%
+      );
+      color: white;
+      transform: scale(1.05);
+    }
+  }
+  
+
+
   
   // MEDIA QUERIES //
   

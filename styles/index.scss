@@ -52,6 +52,13 @@ body {
     display: block;
 }
 
+&-why {
+    background-image: url("../images/why.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
 @media screen and (max-width: 35rem) {
 
 
